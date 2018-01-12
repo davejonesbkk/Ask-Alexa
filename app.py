@@ -6,6 +6,7 @@ import json, requests, time
 
 from unidecode import unidecode
 
+#open keys.txt file where your Newsapi api key is stored
 with open('keys.txt', 'r') as fp:
 	credentials = [x.strip() for x in fp.readlines()]
 
